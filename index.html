@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#d989a8">
+  <title>Muslimah Study 🌷</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand"><div class="brand-mark">🌷</div><div><b>Muslimah Study</b><small>Learn • Grow • Pray</small></div></div>
+      <nav>
+        <button class="nav-item active" data-page="dashboard">🏠 <span>Dashboard</span></button>
+        <button class="nav-item" data-page="study">📖 <span>Islamic Study</span></button>
+        <button class="nav-item" data-page="planner">🎯 <span>Muslimah Planner</span></button>
+        <button class="nav-item" data-page="ibadah">🕌 <span>Ibadah Tracker</span></button>
+        <button class="nav-item" data-page="quiz">🧠 <span>Knowledge Quiz</span></button>
+        <button class="nav-item" data-page="notes">📝 <span>My Notes</span></button>
+        <button class="nav-item" data-page="motivation">🌸 <span>Motivation</span></button>
+      </nav>
+      <div class="sidebar-foot">Made with ♡ for Muslimah learners</div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <button class="icon-btn mobile-only" id="menuBtn">☰</button>
+        <div class="search"><span>⌕</span><input id="globalSearch" placeholder="Cari materi, catatan, atau fitur..."></div>
+        <div class="top-actions"><button class="icon-btn" id="themeBtn" title="Dark mode">☾</button><button class="avatar">PD</button></div>
+      </header>
+
+      <div id="app"></div>
+    </main>
+  </div>
+  <div class="toast" id="toast"></div>
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
